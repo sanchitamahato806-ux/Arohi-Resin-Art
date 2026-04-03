@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarohi Resin Art</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <h2 class="logo">Aarohi Resin Art</h2>
+
+        <ul class="nav-menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="signature.html">Signature</a></li>
+            <li><a href="classic.html">Classic</a></li>
+            <li><a href="luxury.html">Luxury</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="hero">
+    <h1>Crafted with Passion</h1>
+    <p>Every resin piece tells a story</p>
+
+    <div class="buttons">
+        <a href="signature.html" class="btn">Explore Signature</a>
+        <a href="luxury.html" class="btn secondary">Luxury Collection</a>
+    </div>
+</section>
+
+<section class="collections">
+    <h2>Our Collections</h2>
+
+    <div class="grid">
+        <a href="signature.html" class="card">Signature</a>
+        <a href="classic.html" class="card">Classic</a>
+        <a href="luxury.html" class="card">Luxury</a>
+    </div>
+</section>
+
+<div class="whatsapp">
+    <a href="https://wa.me/919876543210" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
